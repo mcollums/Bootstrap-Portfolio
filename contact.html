@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Link to Bootsrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Link to my custom css -->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    <title>Contact Me</title>
+</head>
+
+<body>
+
+    <!-- Navigation Bar with right-aligned buttons-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light-custom">
+        <a class="navbar-brand-custom navbar-Michelle">Michelle Collums</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Container holding the form and heading -->
+    <div class="container">
+        <h1>Contact Me</h1>
+        <hr>
+        <!-- Begin form -->
+        <form>
+            <!-- Name input box-->
+            <div class="form-group">
+                <label for="formGroupExampleInput">Name</label>
+                <input type="text" class="form-control form-control-sm" id="formGroupExampleInput" placeholder="Your Name Here">
+            </div>
+            <!-- Email address input box -->
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+            </div>
+            <!-- Message input box as a paragraph -->
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message here."></textarea>
+            </div>
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary-custom">Submit</button>
+        </form>
+    </div>  
+
+    <!-- Footer and grey box at bottom of the page -->
+    <div class="col-lr-12 bottomBar fixed-bottom"></div>
+    <footer class="fixed-bottom">
+        <br>
+        <p>Copyright &copy</p>
+    </footer>
+</body>
+
+</html>
