@@ -72,15 +72,12 @@ h1 {
     color: white;
 }
 
-.card-img-top {
-    width: 100%;
-    border-top-left-radius: calc(.25rem - 1px);
-    border-top-right-radius: calc(.25rem - 1px);
-    margin-bottom: 20px;
-}
-
 .col-md-12.bottom-col-spacer {
     height: 180px;
+}
+
+.card {
+    margin-bottom: 20px;
 }
 
 /* Footer custom css */
