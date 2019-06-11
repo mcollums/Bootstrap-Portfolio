@@ -1,2 +1,7 @@
 # Bootstrap-Portfolio
-Part One for UTBC Homework 2
+Responsive Portfolio built with Bootstrap\
+https://mcollums.github.io/Bootstrap-Portfolio/
+
+## Contributors
+* Michelle Collums
+
